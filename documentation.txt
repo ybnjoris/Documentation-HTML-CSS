@@ -1,0 +1,219 @@
+
+
+
+
+░▒▓█▓▒░░▒▓█▓▒░ ░▒▓███████▓▒░  ░▒▓███████▓▒░               ░▒▓█▓▒░  ░▒▓██████▓▒░  ░▒▓███████▓▒░  ░▒▓█▓▒░  ░▒▓███████▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░              ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░              ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓█▓▒░        
+ ░▒▓██████▓▒░  ░▒▓███████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░              ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓███████▓▒░  ░▒▓█▓▒░  ░▒▓██████▓▒░  
+   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░        ░▒▓█▓▒░ 
+   ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░       ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░        ░▒▓█▓▒░ 
+   ░▒▓█▓▒░     ░▒▓███████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░        ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░ ░▒▓███████▓▒░  
+                                                                                                                       
+</> YBN Joris 
+
+⚠️ Ton meilleur ami ici = CTRL F !  De plus, toutes les balises ne sont pas encore à jour ou disponibles sur la documentation.
+📂 Je rajouterai des exemples/démonstrations quand le temps me le permettra.
+
+🤖 Voici des raccourcis et balises HTML et CSS utiles pour rendre votre quotidien plus simple !
+
+-----------------------------------------------------------------------------
+ __    __  ________ __       __  __       
+/  |  /  |/        /  \     /  |/  |      
+$$ |  $$ |$$$$$$$$/$$  \   /$$ |$$ |      
+$$ |__$$ |   $$ |  $$$  \ /$$$ |$$ |      
+$$    $$ |   $$ |  $$$$  /$$$$ |$$ |      
+$$$$$$$$ |   $$ |  $$ $$ $$/$$ |$$ |      
+$$ |  $$ |   $$ |  $$ |$$$/ $$ |$$ |_____ 
+$$ |  $$ |   $$ |  $$ | $/  $$ |$$       |
+$$/   $$/    $$/   $$/      $$/ $$$$$$$$/ 
+                                          
+!TAB = full !DOCTYPE
+.nomdelaclassdiv = <div class="nomdelaclassdiv"></div>
+li*4 = <li></li> <li></li> <li></li> <li></li> (marche pour toute les balises balise*nombrebalisedemander)
+
+1️⃣ Balises HTML de structure :
+
+<!DOCTYPE html> : Définit la version HTML.
+<html> : Conteneur racine de la page HTML.
+<head> : Contient les métadonnées et les liens vers les fichiers externes (CSS, JS).
+<title> : Définition du titre de la page.
+<body> : Contient le contenu visible de la page.
+
+2️⃣ Balises de texte et mise en forme :
+
+<h1> à <h6> : Titres de différents niveaux (h1 est le plus grand).
+<p> : Paragraphe.
+<br> : Retour à la ligne.
+<hr> : Ligne horizontale de séparation.
+<strong> ou <b> : Texte en gras.
+<em> ou <i> : Texte en italique.
+<u> : Texte souligné.
+<blockquote> : Citation.
+<mark> : Surligner du texte.
+
+3️⃣ Liens et médias :
+
+<a href=""> : Lien hypertexte.
+<img src="" alt=""> : Image.
+<video> : Vidéo.
+<audio> : Audio.
+<iframe src=""> : Intégrer un autre document ou média (comme YouTube).
+
+4️⃣ Listes :
+
+<ul> : Liste à puces.
+<ol> : Liste numérotée.
+<li> : Élément de liste.
+<dl> : Liste de définition.
+<dt> : Terme à définir.
+<dd> : Définition.
+
+5️⃣ Tableaux :
+
+<table> : Tableau.
+<tr> : Ligne du tableau.
+<td> : Cellule du tableau.
+<th> : Cellule d'en-tête.
+<thead> : En-tête du tableau.
+<tbody> : Corps du tableau.
+
+6️⃣ Formulaires :
+
+<form> : Début d’un formulaire.
+<input type=""> : Champ d’entrée (text, password, checkbox, radio, etc.).
+<textarea> : Zone de texte.
+<select> : Liste déroulante.
+<option> : Option de la liste déroulante.
+<button> : Bouton d’action.
+
+7️⃣ Sémantique et structure :
+
+<header> : En-tête de section.
+<footer> : Pied de page.
+<nav> : Navigation principale.
+<section> : Section générale.
+<article> : Article autonome.
+<aside> : Contenu lié au contenu principal (comme une barre latérale).
+<main> : Contenu principal de la page.
+<div> : Division générique (conteneur).
+<span> : Conteneur en ligne pour styliser une portion de texte.
+
+8️⃣ Attributs communs :
+
+class="" : Attribue une ou plusieurs classes CSS.
+id="" : Attribue un identifiant unique.
+style="" : Applique des styles CSS directement à l’élément.
+title="" : Titre qui s’affiche en survol.
+alt="" : Texte alternatif (pour les images).
+href="" : URL d’un lien.
+src="" : Chemin de la source (pour les images, vidéos, etc.).
+
+9️⃣ Balises de scripts et de liens :
+
+<link rel="stylesheet" href=""> : Lien vers un fichier CSS.
+<script src=""></script> : Intégration d’un fichier JavaScript externe.
+
+
+-----------------------------------------------------------------------------
+
+
+ $$$$$$\   $$$$$$\   $$$$$$\  
+$$  __$$\ $$  __$$\ $$  __$$\ 
+$$ /  \__|$$ /  \__|$$ /  \__|
+$$ |      \$$$$$$\  \$$$$$$\  
+$$ |       \____$$\  \____$$\ 
+$$ |  $$\ $$\   $$ |$$\   $$ |
+\$$$$$$  |\$$$$$$  |\$$$$$$  |
+ \______/  \______/  \______/ 
+                              
+1️⃣ Propriétés de disposition (Layout) :
+
+display: block; : L'élément prend toute la largeur disponible.
+display: inline; : L'élément prend seulement la largeur de son contenu et s'affiche sur la même ligne.
+display: inline-block; : Combinaison de block et inline, permettant de respecter la largeur du contenu mais de garder les propriétés d'un bloc.
+display: flex; : Active le modèle de boîte flexible (flexbox).
+display: grid; : Active la mise en page en grille.
+position: relative; : Position relative par rapport à sa position normale dans le document.
+position: absolute; : Position absolue par rapport à son premier ancêtre positionné.
+position: fixed; : L'élément est fixé par rapport à la fenêtre du navigateur.
+position: sticky; : L'élément devient fixe quand il dépasse un certain seuil de défilement.
+top: 10px; / left: 10px; / right: 10px; / bottom: 10px; : Définit la position d'un élément (avec position: absolute, fixed, ou relative).
+float: left; / float: right; : Positionne l'élément à gauche ou à droite.
+clear: both; : Empêche un élément de flotter autour des éléments précédents.
+
+2️⃣ Propriétés de boîte (Box Model) :
+
+margin: 10px; : Marge extérieure autour de l'élément.
+padding: 10px; : Espace intérieur de l'élément (entre son contenu et ses bords).
+border: 1px solid #000; : Bordure autour de l'élément.
+border-radius: 5px; : Coins arrondis.
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); : Ajoute une ombre derrière un élément.
+width: 100px; : Définit la largeur de l'élément.
+height: 100px; : Définit la hauteur de l'élément.
+max-width: 100%; : Limite la largeur maximale d'un élément.
+min-width: 100px; : Définit une largeur minimale.
+max-height: 200px; : Limite la hauteur maximale d'un élément.
+min-height: 200px; : Définit une hauteur minimale.
+
+3️⃣ Typographie :
+
+font-size: 16px; : Taille de la police.
+font-family: Arial, sans-serif; : Famille de polices.
+font-weight: bold; : Épaisseur de la police.
+font-style: italic; : Style en italique.
+text-align: center; : Alignement du texte (gauche, droite, centré, justifié).
+line-height: 1.5; : Hauteur de ligne.
+text-transform: uppercase; : Transforme le texte en majuscules.
+text-decoration: underline; : Soulignement du texte.
+letter-spacing: 2px; : Espacement entre les lettres.
+word-spacing: 5px; : Espacement entre les mots.
+
+4️⃣ Couleurs et arrière-plans :
+
+color: #333; : Couleur du texte.
+background-color: #f0f0f0; : Couleur d'arrière-plan.
+background-image: url('image.jpg'); : Image d'arrière-plan.
+background-size: cover; : Ajuste la taille de l'image pour couvrir l'ensemble de l'élément.
+background-position: center; : Positionne l'image d'arrière-plan au centre.
+background-repeat: no-repeat; : Empêche la répétition de l'image.
+opacity: 0.5; : Transparence de l'élément (0 = invisible, 1 = opaque).
+
+5️⃣ Propriétés de transition et d'animation :
+
+transition: all 0.3s ease-in-out; : Transition de toutes les propriétés sur 0.3 secondes.
+animation: slide 1s infinite; : Anime un élément selon une clé d'animation (ex. @keyframes slide).
+
+6️⃣ Flexbox :
+
+display: flex; : Active le modèle flexbox.
+flex-direction: row; / column; : Définit la direction principale (ligne ou colonne).
+justify-content: center; : Aligne les éléments le long de l'axe principal (espace autour, entre, au centre, etc.).
+align-items: center; : Aligne les éléments le long de l'axe croisé.
+flex-wrap: wrap; : Permet de passer à une nouvelle ligne quand les éléments débordent.
+flex-grow: 1; : Permet à un élément de grandir pour occuper l'espace disponible.
+order: 1; : Change l'ordre d'affichage des éléments.
+
+7️⃣ Grille (CSS Grid) :
+
+display: grid; : Active la grille CSS.
+grid-template-columns: repeat(3, 1fr); : Définit trois colonnes de taille égale.
+grid-template-rows: 100px auto; : Définit la taille des rangées (100px pour la première, auto pour la seconde).
+grid-gap: 10px; : Espace entre les colonnes et rangées de la grille.
+grid-column: 1 / span 2; : Fait occuper à l'élément deux colonnes.
+grid-row: 2 / span 3; : Fait occuper à l'élément trois rangées.
+
+8️⃣ Transformations :
+
+transform: rotate(45deg); : Rotation de l'élément.
+transform: scale(1.2); : Agrandit l'élément.
+transform: translate(10px, 20px); : Déplace l'élément selon les axes X et Y.
+transform: skew(10deg, 20deg); : Incline l'élément.
+
+9️⃣ Propriétés diverses :
+
+z-index: 10; : Gère l'empilement des éléments (élément avec un index plus élevé apparaît au-dessus).
+visibility: hidden; : Masque l'élément mais garde son espace occupé dans la mise en page.
+overflow: hidden; : Masque tout contenu qui dépasse les limites de l'élément.
+cursor: pointer; : Change le curseur en une main cliquable.                              
+                                                                       
